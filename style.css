@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    width: 100%;
+    position: relative;
+    font-family: "roboto", sans-serif;
+    background: #181818;
+    
+    
+    
+    
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    
+    position: fixed;
+    background: #000;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 100%;
+}
+.box {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-left: auto;
+    gap: 15px;
+    
+}
+.btn {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    height: 20px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn-join {
+    background: #dd0e15;
+    border-color: #dd0e15;
+    cursor: pointer;
+}
+.text {
+   position: relative;
+   padding-top: 80px;
+   padding-left: 10px;
+   color: #fff;
+
+}
+.title {
+    text-transform: capitalize ;
+    font-weight: 900;
+    font-size: 30px;
+}
+.movie-list {
+    width: 100%;
+    height: 250px;
+    margin-top: 40px;
+    position: relative;
+}
+.movie-category {
+    fount-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.movie-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.movie-category::-webkit-scrollbar{
+    display: none;
+}
+
+.movie {
+    flex: 0 0 auto;
+    width: 24%;
+    text-align:end;
+    margin-right: 10px;
+    cursor:pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+    
+}
+
+.movie img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+.movie p {
+    text-transform: capitalize;
+    overflow: hidden;
+    color:#fff
+}
+.form-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+#site-search {
+    width: 60%;
+    background: #181818;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 1.8rem;
+}
+.btn-search {
+    size: 90px;
+    border: 10px solid #fff;
+    color: black;
+    font-size: 1.8rem;
+    border-radius: 40px;
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .encabezado {
+    width: 100%;
+    height: 60px;
+;
+    display:flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#site-search {
+    position: absolute;
+    border-radius: 6px
+    
+}
+.title {
+    font-size: large;
+}
+.imagen {
+    
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.listaAlgunasPeliculas {
+width: 100%;
+height: 100px;
+display: flex; 
+
+justify-content: space-between;
+    
+    
+    
+}
+.poster {
+    display: flex;
+    flex-direction: column;
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+        border-radius: 5px;
+
+    }
+.cuadroDeInformacion {
+    display: flex;
+    flex-direction: column;
+    
+
+} */
